@@ -1,4 +1,7 @@
 ```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+rustc --version
+cargo --version
 cd todo-microservice
 cd todo-micro-service
 cargo run
